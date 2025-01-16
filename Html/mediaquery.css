@@ -1,0 +1,42 @@
+@media screen and (max-width:1440px){
+    .options{
+        display: none !important;
+    }
+    .icon{
+        display: block !important;
+    }
+}
+@media screen and (max-width:1440px){
+    .img-text{
+        top: 35%;
+        left: 20%;
+    }
+    .img-para strong{
+        font-size: 35px;
+        left: 10%;
+    }
+}
+@media screen and (max-width:768px) {
+    .img-text{
+       top: 10%;
+       left: 17%;
+    }
+    .img-para strong{
+        font-size: 10px;
+    }
+    .img-para span{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .img-text{
+       top: 25%;
+       left: 18%;
+    }
+    .img-para strong{
+        font-size: 30px;
+    }
+    .img-para span{
+        font-size: 16px;
+    }
+}

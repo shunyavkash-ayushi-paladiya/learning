@@ -8,3 +8,84 @@
     border: 1px solid #000;
     text-align: center;
 }
+.heading{
+    background-color:cornsilk;
+    color:brown;
+    margin: 30px 20px ;
+    font-weight: 600;
+}
+.para {
+    font-size: 19px;
+    font-weight: 600;
+    animation: slideRight 5s ease-in;
+    position: relative;
+    width: 100%;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%);  
+      }
+      50% {
+        transform: translateX(0%); 
+      }
+    }
+.main-section{
+    width: 100%;
+    margin: auto;
+}
+.container-section{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+    /* text-align: center; */
+    margin-top: 5%;
+}
+.inner-section{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.right-section{
+    align-items:start ;
+    margin-left: 12%;
+}
+.right-section img {
+    width: 100%;
+    animation: slide 5s ease-in ;
+    position: relative;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(-100%);  
+    }
+    50% {
+      transform: translateX(0%); 
+    }
+  }
+  
+.left-section{
+    align-items: end;
+    margin-right: 15%;
+}
+.left-heading{
+    color:chocolate ;
+    font-family: "Playwrite AU SA", serif;
+}
+.para-left{
+    font-family: "Playwrite AU SA", serif;
+}
+.headings-2{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 35px;
+    font-family: "Playfair Display", serif;
+}
+.headings-2::after{
+    border: 2px solid #000;
+    width: 10px;
+    height: 30px;
+}
+

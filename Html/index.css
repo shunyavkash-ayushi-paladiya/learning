@@ -1,0 +1,85 @@
+.header-main{
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+.body{
+    overflow: hidden;
+}
+.header-container{
+    width: 100%;
+    margin:0 auto;
+    padding: 6px;
+    background-color: #f2f2f2;
+    max-width: 100%;
+}
+.header-inner{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-around;
+}
+.options{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+    list-style-type: none;
+    margin-top: 26px;
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+    color: #3B3B3B;
+    font-weight: 500;
+}
+.icon{
+    display: none;
+}
+.icons{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    list-style-type: none;
+    margin-top: 26px;
+    font-size: 20px;
+    color: lightslategrey;
+}
+.logo{
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    color: #535353;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.img-main{
+    width: 100%;
+    margin: 0 auto;
+}
+.img-container{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 3%;
+}
+.img-inner{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.img-inner img{
+    width: 70%;
+}
+.img-text{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    text-align: center;
+    color: beige;
+}
+.img-para strong{
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.img-para span{
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+    text-transform: capitalize;   
+}
