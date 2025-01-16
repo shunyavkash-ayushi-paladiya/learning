@@ -4,12 +4,7 @@
     margin: 0 auto;
 }
 
-.body {
-    overflow: hidden;
-}
-*{
-    background-color: #f2f2f2;
-}
+
 
 .header-container {
     width: 100%;
@@ -43,6 +38,7 @@
     font-family: "Montserrat", serif;
     font-size: 16px;
     color: #000;
+    margin-top: 20px;
 }
 
 .logo {
@@ -58,12 +54,60 @@
 .heading{
     text-align: center;
     font-size: 50px;
+    font-family: "Marcellus SC", serif;
+    font-weight: 600;
 }
 .hero-para{
     text-align: center;
+    font-family: "Libre Baskerville", serif;
+    color: #8C907E;
 }
 .hero-section{
     background-color: #f2f2f2;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+  }
+  
+  .swiper-slide img:hover {
+    transform: scale(0.9);
+    will-change: transform;
+    overflow: hidden;
+  }
+  
+
 
 

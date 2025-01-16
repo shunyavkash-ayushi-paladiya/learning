@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marcellus+SC&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Html/mediaquery.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <div class="header-main">
@@ -46,15 +49,74 @@
         </div>
     </div>
 
-     <hr>
+     <hr> <br>
 
     <section>
         <div class="hero-section">
-        <h1 class="heading">New Collection</h1>
+        <h1 class="heading">New Collections</h1> <br> <br>
         <p class="hero-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptas ut <br> 
             dolorum consequuntur, adipisci repellat! Eveniet commodi voluptatem <br>
              voluptate, eum minima, in suscipit explicabo voluptatibus harum, quibusdam <br> ex repellat eaque!</p>
-        </div>
+        </div> <br> <br> <br>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="Html/images/images (1).jfif" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="Html/images/images (2).jfif" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="Html/images/images (3).jfif" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="Html/images/istockphoto-660490044-612x612.jpg" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="Html/images/istockphoto-1400839503-612x612.jpg" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="Html/images/istockphoto-675267810-612x612.jpg" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="Html/images/istockphoto-1146488709-612x612.jpg" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="Html/images/istockphoto-610662226-612x612.jpg" alt=""/>
+              </div>
+              <div class="swiper-slide">
+                <img src="Html/images/istockphoto-1249978015-612x612.jpg" alt=""/>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        
+    </section> 
+    <hr>
+ 
+     <br>
+    <section>
+       <form method="dialog" class="form">
+             Frist Name:
+            <input type="text" value="name" placeholder="Enter your first name">  <br>
+             Last Name:
+             <input type="text" value="name" placeholder="Enter your last name">  <br>
+             Email Address:
+             <input type="email" value="email" placeholder="Enter your email address"> <br>
+             Phone number:
+             <input type="number" value="number" placeholder="+91 1234567890"> <br>
+       </form>
     </section>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
 </body>
 </html>
