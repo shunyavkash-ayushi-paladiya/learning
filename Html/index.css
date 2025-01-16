@@ -107,6 +107,21 @@ body {
     will-change: transform;
     overflow: hidden;
   }
+  .form{
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+  }
+ .form-header{
+   font-size: 30px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
   
 
 
